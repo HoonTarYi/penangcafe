@@ -64,6 +64,15 @@ axios.get(locationReq).then((response) => {
     lng: response.data.results[0].geometry.location.lng,
   }
 
+  server.post('/delete', (req,res) => {
+      filemgr.deleteAll().then((result) => {
+        filteredResults = result;
+        res.render("historical.hbs");
+      }).catch((errorMessage) => {
+       console.log(errorMessage);
+     });
+    });
+
 const placesReq = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${locationData.lat},${locationData.lng}&radius=1500%20&types=${placetype}%20&name=${name}&key=${PLACES_API_KEY}`;
 
  return axios.get(placesReq);
