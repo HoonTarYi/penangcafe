@@ -6,6 +6,7 @@ const database = 'mongodb://localhost:27017';
 
 const appname ='placesapp';
 const collectionname ='placesappcollection';
+
 const saveData = (newdata) =>  {
   return new Promise((resolve,reject) => {
     MongoClient.connect(database,{useNewUrlParser:true},(err,client) => {

@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 
+<style>
 body, html {
     height: 100%;
     font-family: "Inconsolata", sans-serif;
@@ -13,7 +14,7 @@ body, html {
 .bgimg {
     background-position: center;
     background-size: cover;
-    background-image: url("../images/cafe.jpg");
+    background-image: url('header.jpg');
     min-height: 75%;
 }
 .menu {
@@ -21,6 +22,7 @@ body, html {
 }
 </style>
 <body>
+
 
 {{>navbar}}
 
@@ -31,13 +33,13 @@ body, html {
 <!-- Header with image -->
 <header class="bgimg w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag">Open from 6am to 5pm</span>
+    <span class="w3-tag">24 Hours</span>
   </div>
   <div class="w3-display-middle w3-center">
     <span class="w3-text-white" style="font-size:90px">the<br>Cafe</span>
   </div>
   <div class="w3-display-bottomright w3-center w3-padding-large">
-    <span class="w3-text-white">15 Adr street, 5015</span>
+    <span class="w3-text-white">Find Your Desire Cafe</span>
   </div>
 </header>
 
@@ -64,7 +66,7 @@ body, html {
 <div class="w3-container" id="menu">
   <div class="w3-content" style="max-width:700px">
 
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Recommended MENU</span></h5>
 
     <div class="w3-row w3-center w3-card w3-padding">
       <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
@@ -77,49 +79,47 @@ body, html {
 
     <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
       <h5>Bread Basket</h5>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins</p><br>
 
       <h5>Honey Almond Granola with Fruits</h5>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates</p><br>
 
       <h5>Belgian Waffle</h5>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+      <p class="w3-text-grey">Vanilla flavored batter with malted flour</p><br>
 
       <h5>Scrambled eggs</h5>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions</p><br>
 
       <h5>Blueberry Pancakes</h5>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
+      <p class="w3-text-grey">With syrup, butter and lots of berries</p>
     </div>
 
     <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
-      <h5>Coffee</h5>
-      <p class="w3-text-grey">Regular coffee 2.50</p><br>
+      <h5>Americano</h5>
+      <p class="w3-text-grey">A shot or two of espresso with hot water added</p><br>
 
-      <h5>Chocolato</h5>
-      <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
+      <h5>Cappuccino</h5>
+      <p class="w3-text-grey">Espresso with a little bit of steamed milk topped with a lot of foam</p><br>
 
-      <h5>Corretto</h5>
-      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
+      <h5>Mocha</h5>
+      <p class="w3-text-grey">Espresso with steamed milk and chocolate (you can add whipped cream as well!)</p><br>
 
-      <h5>Iced tea</h5>
-      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+      <h5>>Espresso</h5>
+      <p class="w3-text-grey">Coffee brewed by forcing a small amount of nearly boiling water under pressure through finely ground beans.</p><br>
 
       <h5>Soda</h5>
       <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
     </div>
-    <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+    <img src="menu.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
   </div>
 </div>
 
 
 
-<!-- End page content -->
-</div>
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Powered by <a  title="W3.CSS" target="_blank" class="w3-hover-text-green">Cafe Tail</a></p>
 </footer>
 
 
