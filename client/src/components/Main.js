@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import jss from 'jss';
+import components from 'components';
 
 class Main extends Component {
 
