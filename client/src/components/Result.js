@@ -1,5 +1,5 @@
 import React from 'react';
-import './components.css';
+
 
 const Result = props => {
   //console.log(props.list.length);
