@@ -52,7 +52,7 @@ class Main extends Component {
 
           <div id="Eat" className="w3-container menu w3-padding-48 w3-card">
             <h5>Bread Basket</h5>
-            <p className="w3-text-grey">Assortment of fresh baked fruit breads and muffins</p><
+            <p className="w3-text-grey">Assortment of fresh baked fruit breads and muffins</p>
 
             <h5>Honey Almond Granola with Fruits</h5>
             <p className="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates</p>
