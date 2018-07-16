@@ -3,7 +3,6 @@ import jss from 'jss';
 
 class Main extends Component {
 
-  const span
 
   render() {
     return (
