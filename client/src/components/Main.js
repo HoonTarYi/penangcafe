@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Main extends Component {
   render() {
     return (
-      html>
+      <html>
       <title>Search Nearby Cafe</title>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,9 +30,6 @@ class Main extends Component {
 
 
       {{>navbar}}
-
-
-
 
 
       <!-- Header with image -->
