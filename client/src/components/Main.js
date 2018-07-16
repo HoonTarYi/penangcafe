@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-className Main extends Component {
+class Main extends Component {
   render() {
     return (
 
@@ -86,9 +86,6 @@ className Main extends Component {
           <img src="menu.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
         </div>
       </div>
-
-      </body>
-      </html>
 
 
       <!-- Footer -->
