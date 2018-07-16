@@ -7,16 +7,16 @@ class Navbar extends Component {
       <div class="w3-top">
         <div class="w3-row w3-padding w3-black">
           <div class="w3-col s3">
-            <a href="/" class="w3-button w3-block w3-black">HOME</a>
+            <a href="/" class="w3-button w3-block w3-black">HOME</Link></a>
           </div>
           <div class="w3-col s3">
-            <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+            <a Link to="#about" class="w3-button w3-block w3-black">ABOUT</Link></a>
           </div>
           <div class="w3-col s3">
-            <a href="/form" class="w3-button w3-block w3-black">Form</a>
+            <a Link to="form" class="w3-button w3-block w3-black">Form</Link></a>
           </div>
           <div class="w3-col s3">
-            <a href="/historical" class="w3-button w3-block w3-black">Previous Searches</a>
+            <a Link to="historical" class="w3-button w3-block w3-black">Previous Searches</Link></a>
           </div>
         </div>
       </div>
