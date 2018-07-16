@@ -16,10 +16,9 @@ class Main extends Component {
         </div>
       </header>
 
-      <!-- Add a background color and large text to the whole page -->
       <div className="w3-sand w3-grayscale w3-large">
 
-      <!-- About Container -->
+
 
         <div className="w3-content" style="max-width:700px">
           <h5 className="w3-center w3-padding-64"><span className="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
@@ -35,7 +34,7 @@ class Main extends Component {
         </div>
       </div>
 
-      <!-- Menu Container -->
+
       <div className="w3-container" id="menu">
         <div className="w3-content" style="max-width:700px">
 
@@ -88,7 +87,7 @@ class Main extends Component {
       </div>
 
 
-      <!-- Footer -->
+
       <footer className="w3-center w3-light-grey w3-padding-48 w3-large">
         <p>Powered by <a  title="W3.CSS" target="_blank" className="w3-hover-text-green">Cafe Tail</a></p>
       </footer>
