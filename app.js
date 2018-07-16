@@ -36,7 +36,7 @@ hbs.registerHelper('list', (items, options) => {
   return out;
 });
 
-server.use(express.static(path.join(__dirname, 'public')));
+server.use(express.static(path.join(__dirname, 'images')));
 
 server.get('/', (req, res) => {
   res.render('home.hbs');
