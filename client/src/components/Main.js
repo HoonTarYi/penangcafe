@@ -4,10 +4,11 @@ class Main extends Component {
   render() {
     return (
 
-      <header classNameName="bgimg w3-display-container w3-grayscale-min" id="home">
-        <div classNameName="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-          <span className="w3-tag">24 Hours</span>
-        </div>
+      <div>
+        <header classNameName="bgimg w3-display-container w3-grayscale-min" id="home">
+          <div classNameName="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+            <span className="w3-tag">24 Hours</span>
+          </div>
         <div className="w3-display-middle w3-center">
           <span className="w3-text-white" style="font-size:90px">the Cafe</span>
         </div>
@@ -16,7 +17,7 @@ class Main extends Component {
         </div>
       </header>
 
-    <div>
+
       <div className="w3-sand w3-grayscale w3-large">
 
           <div className="w3-content" style="max-width:700px">
@@ -32,7 +33,7 @@ class Main extends Component {
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
         </div>
           </div>
-              </div>
+
 
 
       <div className="w3-container" id="menu">
@@ -92,6 +93,7 @@ class Main extends Component {
       <footer className="w3-center w3-light-grey w3-padding-48 w3-large">
         <p>Powered by <a  title="W3.CSS" target="_blank" className="w3-hover-text-green">Cafe Tail</a></p>
       </footer>
+      </div>
     );
   }
 }
