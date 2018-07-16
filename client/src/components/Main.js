@@ -5,7 +5,7 @@ class Main extends Component {
     return (
 
       <div>
-        <header classNameName="bgimg w3-display-container w3-grayscale-min" id="home">
+        <div classNameName="bgimg w3-display-container w3-grayscale-min" id="home">
           <div classNameName="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span className="w3-tag">24 Hours</span>
           </div>
@@ -15,7 +15,7 @@ class Main extends Component {
         <div className="w3-display-bottomright w3-center w3-padding-large">
           <span className="w3-text-white">Find Your Desire Cafe</span>
         </div>
-      </header>
+      </div>
 
 
       <div className="w3-sand w3-grayscale w3-large">
@@ -90,9 +90,9 @@ class Main extends Component {
 
 
 
-      <footer className="w3-center w3-light-grey w3-padding-48 w3-large">
+      <div className="w3-center w3-light-grey w3-padding-48 w3-large">
         <p>Powered by <a  title="W3.CSS" target="_blank" className="w3-hover-text-green">Cafe Tail</a></p>
-      </footer>
+      </div>
       </div>
     );
   }
