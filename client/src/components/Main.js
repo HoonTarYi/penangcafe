@@ -2,26 +2,29 @@ import React, { Component } from 'react';
 import jss from 'jss';
 
 class Main extends Component {
+
+  const span
+
   render() {
     return (
 
       <div>
-        <div classNameName="bgimg w3-display-container w3-grayscale-min" id="home">
-          <div classNameName="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+        <div className="bgimg w3-display-container w3-grayscale-min" id="home">
+          <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span className="w3-tag">24 Hours</span>
               </div>
               <div className="w3-display-middle w3-center">
-                <span className="w3-text-white" style="font-size:90px">the Cafe</span>
+                <span className="w3-text-white">the Cafe</span>
                 </div>
                   <div className="w3-display-bottomright w3-center w3-padding-large">
                     <span className="w3-text-white">Find Your Desire Cafe</span>
                       </div>
-      </div>
+                        </div>
 
 
       <div className="w3-sand w3-grayscale w3-large">
 
-          <div className="w3-content" style="max-width:700px">
+          <div className="w3-content">
           <h5 className="w3-center w3-padding-64"><span className="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
           <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
@@ -29,7 +32,7 @@ class Main extends Component {
               <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
               <p>Chef, Coffeeist and Owner: Liam Brown</p>
             </div>
-          <img src="cafe.jpg" style="width:100%;max-width:1000px" className="w3-margin-top" alt="img" />
+          <img src="cafe.jpg"  className="w3-margin-top" alt="img" />
           <p><strong>Opening hours:</strong></p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
         </div>
@@ -38,7 +41,7 @@ class Main extends Component {
 
 
       <div className="w3-container" id="menu">
-        <div className="w3-content" style="max-width:700px">
+        <div className="w3-content">
 
           <h5 className="w3-center w3-padding-48"><span className="w3-tag w3-wide">Recommended MENU</span></h5>
 
@@ -84,7 +87,7 @@ class Main extends Component {
             <h5>Soda</h5>
             <p className="w3-text-grey">Coke, Sprite, Fanta, etc.</p>
           </div>
-          <img src="menu.jpg" style="width:100%;max-width:1000px;margin-top:32px;"/>
+          <img src="menu.jpg" />
           </div>
             </div>
 
