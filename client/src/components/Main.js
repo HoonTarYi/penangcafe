@@ -18,8 +18,6 @@ class Main extends Component {
 
       <div className="w3-sand w3-grayscale w3-large">
 
-
-
         <div className="w3-content" style="max-width:700px">
           <h5 className="w3-center w3-padding-64"><span className="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
           <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -84,6 +82,7 @@ class Main extends Component {
           </div>
           <img src="menu.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
         </div>
+      </div>
       </div>
 
 
