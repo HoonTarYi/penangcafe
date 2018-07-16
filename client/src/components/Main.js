@@ -16,7 +16,7 @@ class Main extends Component {
         </div>
       </header>
 
-      <div className="w3-sand w3-grayscale w3-large">
+      <div className="w3-sand w3-grayscale w3-large"></div>
 
         <div className="w3-content" style="max-width:700px">
           <h5 className="w3-center w3-padding-64"><span className="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
@@ -30,7 +30,8 @@ class Main extends Component {
           <p><strong>Opening hours:</strong></p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
         </div>
-      </div>
+        </div>
+
 
 
       <div className="w3-container" id="menu">
@@ -83,7 +84,7 @@ class Main extends Component {
           <img src="menu.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
         </div>
       </div>
-      </div>
+
 
 
 
