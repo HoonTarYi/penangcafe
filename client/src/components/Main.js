@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import cafe from './cafe.jpg';
 import menu from './menu.jpg';
+import './Main.css';
 
 
 class Main extends Component {
