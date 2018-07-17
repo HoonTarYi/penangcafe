@@ -51,7 +51,7 @@ class Main extends Component {
 
 
 
-      <div className="w3-container" id="menu">
+
         <div className="w3-content">
 
           <h5 className="w3-center w3-padding-48"><span className="w3-tag w3-wide">Recommended MENU</span></h5>
@@ -101,7 +101,7 @@ class Main extends Component {
           </div>
                           <img src={menu} width="100%" max-width="1000px" margin-top="32px" / >
           </div>
-            </div>
+          
 
 
 
