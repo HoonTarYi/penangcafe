@@ -95,7 +95,7 @@ class Main extends Component {
             <h5>Soda</h5>
             <p className="w3-text-grey">Coke, Sprite, Fanta, etc.</p>
           </div>
-                          <img src={menu}  width:"100%" margin-top="32px" / >
+                          <img src={menu}  width="100%" margin-top="32px" / >
           </div>
 
 
