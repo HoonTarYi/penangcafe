@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import cafe from './cafe.jpg';
-import menu from './menu.jpg';
+
 import './Main.css';
 
 
@@ -11,8 +11,8 @@ class Main extends Component {
     return (
 
       <div>
-        <div className="home">
-        <div className="bgimg w3-display-container w3-grayscale-min" id="home">
+        <span style={bgimg} >
+        <div className="bgimg w3-display-container w3-grayscale-min " id="home">
           <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span className="w3-tag">24 Hours</span>
               </div>
@@ -23,7 +23,7 @@ class Main extends Component {
                     <span className="w3-text-white">Find Your Desire Cafe</span>
                       </div>
                         </div>
-                          </div>
+                          </span>
 
 
       <div className="w3-sand w3-grayscale w3-large">
@@ -93,7 +93,7 @@ class Main extends Component {
             <h5>Soda</h5>
             <p className="w3-text-grey">Coke, Sprite, Fanta, etc.</p>
           </div>
-          <img src={menu} />
+
           </div>
             </div>
 
