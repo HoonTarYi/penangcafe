@@ -15,7 +15,7 @@ class Main extends Component {
 
       <div>
 
-
+        <div className="bgimg">
         <div className="bgimg w3-display-container w3-grayscale-min" id="home">
           <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span className="w3-tag">24 Hours</span>
@@ -28,6 +28,7 @@ class Main extends Component {
                   <div className="w3-display-bottomright w3-center w3-padding-large">
                     <span className="w3-text-white">Find Your Desire Cafe</span>
                     </div>
+                        </div>
                         </div>
 
 
@@ -53,12 +54,12 @@ class Main extends Component {
 
 
 
-      <div className="w3-container">
+      <div className="w3-container" id="menu">
         <div className="w3-content">
 
           <h5 className="w3-center w3-padding-48"><span className="w3-tag w3-wide">Recommended MENU</span></h5>
 
-          <div className="w3-row w3-center ">
+          <div className="w3-row w3-center w3-card w3-padding">
 
 
               <div className="w3-col s6 tablink">Eat</div>
@@ -68,8 +69,7 @@ class Main extends Component {
 
           </div>
 
-          <div className="w3-container menu w3-padding-48 w3-card">
-
+          <div id="Eat" className="w3-container menu w3-padding-48 w3-card">
             <h5>Bread Basket</h5>
             <p className="w3-text-grey">Assortment of fresh baked fruit breads and muffins</p>
 
@@ -86,7 +86,7 @@ class Main extends Component {
             <p className="w3-text-grey">With syrup, butter and lots of berries</p>
           </div>
 
-          <div className="w3-container menu w3-padding-48 w3-card">
+          <div id="Drinks" className="w3-container menu w3-padding-48 w3-card">
             <h5>Americano</h5>
             <p className="w3-text-grey">A shot or two of espresso with hot water added</p>
 

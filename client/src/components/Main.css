@@ -1,19 +1,16 @@
-.bgimg {
+
+.bgimg  {
     background-position: center;
     background-size: cover;
-
+    background-image: 'url('+ header.jpg + ')';
     min-height: 75%;
 }
 
-.imagecafe {
-  width:100%;
-  max-width:1000px;
-}
 
 .menu {
     display: none;
 }
 
 .w3-text-white {
-  font-size:1000px;
+  font-size:90px;
 }
