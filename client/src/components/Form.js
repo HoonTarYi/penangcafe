@@ -62,8 +62,9 @@ class Form extends Component {
         </div>
 
 
-        <div className="w3-row w3-center w3-card w3-padding text-center">
+        <div className="row container text-center">
           <div className="col-sm-12">
+              <div className="form-group">
             <form onSubmit={this.onSubmit}>
               <div className="form-group">
                 <label htmlFor="addr">Enter address:</label>

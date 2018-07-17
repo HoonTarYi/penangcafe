@@ -51,6 +51,7 @@ class Historical extends Component {
           <h1>Historical Searches</h1>
           <p>Previous search results</p>
         </div>
+        
         <div className="row container-fluid">
           <div className="col-md-4 text-center">
             <button

@@ -113,7 +113,7 @@ const extractData = (originalResults) => {
       tempObj = {
         name: originalResults[i].name,
         address: originalResults[i].vicinity,
-        photo_reference: '/no_image_found.png',
+        photo_reference: '/no-image_found.jpg',
       }
     }
 
