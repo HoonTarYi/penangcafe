@@ -11,7 +11,7 @@ class Main extends Component {
     return (
 
       <div>
-
+        <div className="home">
         <div className="bgimg w3-display-container w3-grayscale-min" id="home">
           <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span className="w3-tag">24 Hours</span>
@@ -23,6 +23,7 @@ class Main extends Component {
                     <span className="w3-text-white">Find Your Desire Cafe</span>
                       </div>
                         </div>
+                          </div>
 
 
       <div className="w3-sand w3-grayscale w3-large">
