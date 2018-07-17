@@ -1,5 +1,5 @@
 import React from 'react';
-import noimage from 'no-image.jpg';
+
 
 const Result = props => {
   //console.log(props.list.length);

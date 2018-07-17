@@ -37,8 +37,8 @@ class Main extends Component {
 
           <div className="w3-content">
           <h5 className="w3-center w3-padding-64"><span className="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
-          <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+          <p>This website is to let user find the nearby cafe. User just need to insert the address , enter the cafe name and you can start search the nearby cafe of the address that had enter.</p>
+          <p>In addition, we has a suggestion list at below. If you are a fresh customer to the cafe, you can order the drinks that had been written. The description has well explained to the customer. Hope you guys to enjoy it.</p>
             <div className="w3-panel w3-leftbar w3-light-grey">
               <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
               <p>Chef, Coffeeist and Owner: Liam Brown</p>
@@ -53,22 +53,23 @@ class Main extends Component {
 
 
 
-      <div className="w3-container" id="menu">
+      <div className="w3-container">
         <div className="w3-content">
 
           <h5 className="w3-center w3-padding-48"><span className="w3-tag w3-wide">Recommended MENU</span></h5>
 
-          <div className="w3-row w3-center w3-card w3-padding">
-            <a Link to="javascript:void(0)" onClick="openMenu(event, 'Eat');" id="myLink">
+          <div className="w3-row w3-center ">
+
 
               <div className="w3-col s6 tablink">Eat</div>
-              </a>
-              <a Link to="javascript:void(0)" onClick="openMenu(event, 'Drinks');">
+
+
               <div className="w3-col s6 tablink">Drink</div>
-                </a>
+
           </div>
 
-          <div id="Eat" className="w3-container menu w3-padding-48 w3-card">
+          <div className="w3-container menu w3-padding-48 w3-card">
+
             <h5>Bread Basket</h5>
             <p className="w3-text-grey">Assortment of fresh baked fruit breads and muffins</p>
 
@@ -85,7 +86,7 @@ class Main extends Component {
             <p className="w3-text-grey">With syrup, butter and lots of berries</p>
           </div>
 
-          <div id="Drinks" className="w3-container menu w3-padding-48 w3-card">
+          <div className="w3-container menu w3-padding-48 w3-card">
             <h5>Americano</h5>
             <p className="w3-text-grey">A shot or two of espresso with hot water added</p>
 
@@ -101,7 +102,7 @@ class Main extends Component {
             <h5>Soda</h5>
             <p className="w3-text-grey">Coke, Sprite, Fanta, etc.</p>
           </div>
-  <img src={menu} width="100%" max-width="1000px" margin-top="32px" / >
+                          <img src={menu} width="100%" max-width="1000px" margin-top="32px" / >
           </div>
             </div>
 
