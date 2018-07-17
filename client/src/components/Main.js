@@ -26,24 +26,26 @@ class Main extends Component {
                 <div className="w3-display-bottomright w3-center w3-padding-large">
                   <span className="w3-text-white">Find Your Desire Cafe</span>
                   </div>
+
                   </div>
                   </div>
 
-              <div className="w3-sand w3-grayscale w3-large">
-          <div className="w3-content">
-          <h5 className="w3-center w3-padding-64"><span className="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
-          <p>This website is to let user find the nearby cafe. User just need to insert the address , enter the cafe name and you can start search the nearby cafe of the address that had enter.</p>
-          <p>In addition, we has a suggestion list at below. If you are a fresh customer to the cafe, you can order the drinks that had been written. The description has well explained to the customer. Hope you guys to enjoy it.</p>
-            <div className="w3-panel w3-leftbar w3-light-grey">
-              <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
-              <p>Chef, Coffeeist and Owner: Liam Brown</p>
-            </div>
+          <div className="w3-sand w3-grayscale w3-large">
+            <div className="w3-content">
+              <h5 className="w3-center w3-padding-64"><span className="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
+                  <p>This website is to let user find the nearby cafe. User just need to insert the address , enter the cafe name and you can start search the nearby cafe of the address that had enter.</p>
+                  <p>In addition, we has a suggestion list at below. If you are a fresh customer to the cafe, you can order the drinks that had been written. The description has well explained to the customer. Hope you guys to enjoy it.</p>
+                      <div className="w3-panel w3-leftbar w3-light-grey">
+                          <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+                            <p>Chef, Coffeeist and Owner: Liam Brown</p>
+                      </div>
+              </div>
 
           <img src={cafe}  className="w3-margin-top" alt="img" />
 
           <p><strong>Opening hours: </strong> 24 hr</p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
-        </div>
+          </div>
 
 
 
@@ -56,7 +58,6 @@ class Main extends Component {
           <div className="w3-row w3-center w3-card w3-padding">
 
               <div className="w3-col s6 tablink">Eat</div>
-
 
           </div>
 
