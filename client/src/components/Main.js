@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './cafe.jpg';
-
+import cafe from './cafe.jpg';
+import menu from './menu.jpg';
 
 
 class Main extends Component {
@@ -10,6 +10,7 @@ class Main extends Component {
     return (
 
       <div>
+      <div className="body">
         <div className="bgimg w3-display-container w3-grayscale-min" id="home">
           <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span className="w3-tag">24 Hours</span>
@@ -33,7 +34,7 @@ class Main extends Component {
               <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
               <p>Chef, Coffeeist and Owner: Liam Brown</p>
             </div>
-          <img src={logo}  className="w3-margin-top" alt="img" />
+          <img src={cafe}  className="w3-margin-top" alt="img" />
           <p><strong>Opening hours:</strong></p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
         </div>
@@ -88,7 +89,7 @@ class Main extends Component {
             <h5>Soda</h5>
             <p className="w3-text-grey">Coke, Sprite, Fanta, etc.</p>
           </div>
-          <img src="menu.jpg" />
+          <img src={menu} />
           </div>
             </div>
 
@@ -99,6 +100,8 @@ class Main extends Component {
         <p>Powered by <a  title="W3.CSS" target="_blank" className="w3-hover-text-green">Cafe Tail</a></p>
       </div>
         </div>
+
+          </div>
     );
   }
 }
