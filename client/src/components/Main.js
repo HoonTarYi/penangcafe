@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import cafe from './cafe.jpg';
-
+import header from './header.jpg';
+import bgimg from './Main.css';
 import './Main.css';
 
 
