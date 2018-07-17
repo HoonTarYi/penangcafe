@@ -12,7 +12,7 @@ class Main extends Component {
 
       <div>
 
-      <div className="w3-sand w3-grayscale w3-large">
+
 
       <div className="w3-display-container w3-grayscale-min" id="home">
         <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
@@ -21,6 +21,8 @@ class Main extends Component {
             <div className="w3-display-middle w3-center">
 
                 <img src={header}  className="w3-margin" alt="img" min-height="20%" />
+
+              <div className="w3-display-bottomright w3-center w3-padding-large">
               <span className="w3-text-white">the Cafe</span>
 
               </div>
@@ -29,7 +31,7 @@ class Main extends Component {
                   </div>
                   </div>
                       </div>
-
+              <div className="w3-sand w3-grayscale w3-large">
           <div className="w3-content">
           <h5 className="w3-center w3-padding-64"><span className="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
           <p>This website is to let user find the nearby cafe. User just need to insert the address , enter the cafe name and you can start search the nearby cafe of the address that had enter.</p>
@@ -44,7 +46,7 @@ class Main extends Component {
           <p><strong>Opening hours: </strong> 24 hr</p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
         </div>
-    
+
 
 
 
@@ -55,11 +57,8 @@ class Main extends Component {
 
           <div className="w3-row w3-center w3-card w3-padding">
 
-
               <div className="w3-col s6 tablink">Eat</div>
 
-
-              <div className="w3-col s6 tablink">Drink</div>
 
           </div>
 
