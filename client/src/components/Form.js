@@ -47,7 +47,23 @@ class Form extends Component {
         </div>
 
 
+        <div className="w3-display-container w3-grayscale-min" id="home">
 
+              <div className="w3-display-middle w3-center">
+
+                  <img src={header}  className="w3-margin" alt="img" min-height="50%" />
+
+                <div className="w3-display-bottomright w3-center w3-padding-large">
+                <span className="w3-text-white">the Cafe</span>
+
+                </div>
+                  <div className="w3-display-bottomright w3-center w3-padding-large">
+                    <span className="w3-text-white">Find Your Desire Cafe</span>
+                    </div>
+
+                    </div>
+                    </div>
+                    
         <div className="bgimg w3-display-container w3-grayscale-min" id="form">
 
           <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">

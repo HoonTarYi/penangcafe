@@ -17,7 +17,7 @@ class Main extends Component {
 
             <div className="w3-display-middle w3-center">
 
-                <img src={header}  className="w3-margin" alt="img" min-height="20%" />
+                <img src={header}  className="w3-margin" alt="img" min-height="50%" />
 
               <div className="w3-display-bottomright w3-center w3-padding-large">
               <span className="w3-text-white">the Cafe</span>
@@ -30,8 +30,9 @@ class Main extends Component {
                   </div>
                   </div>
 
-          <div className="w3-sand w3-grayscale w3-large">
-            <div className="w3-content">
+          <div className="w3-sand w3-grayscale w3-large" >
+
+            <div className="w3-content" max-width="700px">
               <h5 className="w3-center w3-padding-64"><span className="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
                   <p>This website is to let user find the nearby cafe. User just need to insert the address , enter the cafe name and you can start search the nearby cafe of the address that had enter.</p>
                   <p>In addition, we has a suggestion list at below. If you are a fresh customer to the cafe, you can order the drinks that had been written. The description has well explained to the customer. Hope you guys to enjoy it.</p>
@@ -41,7 +42,7 @@ class Main extends Component {
                       </div>
               </div>
 
-          <img src={cafe}  className="w3-margin-top" alt="img" />
+          <img src={cafe}  className="w3-margin-top" width="100%" mas-width"1000px" alt="img" />
 
           <p><strong>Opening hours: </strong> 24 hr</p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
