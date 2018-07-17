@@ -108,6 +108,7 @@ class Form extends Component {
             </form>
           </div>
         </div>
+      </div>
         <Result list={this.state.result} />
       </div>
     );
