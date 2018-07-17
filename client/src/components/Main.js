@@ -31,7 +31,7 @@ class Main extends Component {
               <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
               <p>Chef, Coffeeist and Owner: Liam Brown</p>
             </div>
-          <img src="cafe.jpg"  className="w3-margin-top" alt="img" />
+          <img src="D:\penangcafe\images\cafe.jpg"  className="w3-margin-top" alt="img" />
           <p><strong>Opening hours:</strong></p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
         </div>
@@ -45,10 +45,10 @@ class Main extends Component {
           <h5 className="w3-center w3-padding-48"><span className="w3-tag w3-wide">Recommended MENU</span></h5>
 
           <div className="w3-row w3-center w3-card w3-padding">
-            <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+            <a Link to="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
               <div className="w3-col s6 tablink">Eat</div>
             </a>
-            <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+            <a Link to="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
               <div className="w3-col s6 tablink">Drink</div>
             </a>
           </div>

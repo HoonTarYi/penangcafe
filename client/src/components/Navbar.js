@@ -5,19 +5,21 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-default navbar-fixed-top">
-          <div className="container-fluid">
-            <div className="navbar-header">
-              <Link to="#" className="navbar-brand">Places</Link>
-            </div>
-            <ul className="nav navbar-nav">
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="form">Form</Link></li>
-              <li><Link to="historical">Previous Searches</Link></li>
-            </ul>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Places</a>
           </div>
-        </nav>
+          <ul class="nav navbar-nav">
+
+            <li><a href="/">Home</a></li>
+            <li><a href="/form">Form</a></li>
+            <li><a href="/historical">Previous Searches</a></li>
+          </ul>
+        </div>
+      </nav>
       </div>
+
 
     );
   }
