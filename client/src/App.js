@@ -5,7 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import Main from './components/Main';
 import Historical from './components/Historical';
 import Form from './components/Form';
-import logo from './logo.svg';
+
 
 class App extends Component {
   render() {
