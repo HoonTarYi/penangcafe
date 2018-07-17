@@ -62,7 +62,8 @@ class Form extends Component {
         </div>
 
 
-
+        <div className="w3-row w3-center w3-card w3-padding text-center">
+            <div className="col-sm-12">
 
               <div className="form-group">
             <form onSubmit={this.onSubmit}>
@@ -107,7 +108,9 @@ class Form extends Component {
               </div>
             </form>
           </div>
-      
+        </div>
+      </div>
+
         <Result list={this.state.result} />
       </div>
     );

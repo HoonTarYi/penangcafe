@@ -4,7 +4,7 @@ body {
     height: 100%;
     font-family: 'Inconsolata', sans-serif;
 }
-.bgimg {
+.bgimg w3-display-container w3-grayscale-min {
     background-position: center;
     background-size: cover;
     background-image: 'url('+ header.jpg + ')';
@@ -18,4 +18,8 @@ body {
 
 .menu {
     display: none;
+}
+
+.w3-text-white {
+  font-size:90px;
 }
