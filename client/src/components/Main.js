@@ -11,7 +11,7 @@ class Main extends Component {
     return (
 
       <div>
-      <div className="body">
+
         <div className="bgimg w3-display-container w3-grayscale-min" id="home">
           <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span className="w3-tag">24 Hours</span>
@@ -35,7 +35,9 @@ class Main extends Component {
               <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
               <p>Chef, Coffeeist and Owner: Liam Brown</p>
             </div>
-          <img src={cafe}  className="w3-margin-top" alt="cafe" />
+            <div clssName="imagecafe">
+          <img src={cafe}  className="w3-margin-top" alt="img" />
+          </div>
           <p><strong>Opening hours:</strong></p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
         </div>
@@ -102,7 +104,7 @@ class Main extends Component {
       </div>
         </div>
 
-          </div>
+
     );
   }
 }
