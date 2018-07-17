@@ -35,7 +35,7 @@ class Main extends Component {
               <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
               <p>Chef, Coffeeist and Owner: Liam Brown</p>
             </div>
-            <div clssName="imagecafe">
+            <div className="imagecafe">
           <img src={cafe}  className="w3-margin-top" alt="img" />
           </div>
           <p><strong>Opening hours:</strong></p>
