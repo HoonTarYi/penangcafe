@@ -46,10 +46,10 @@ class Form extends Component {
           <h1>Search Page</h1>
           <p>For searching for places of interest</p>
         </div>
-        <img src={header}  className="w3-margin" alt="img" min-height="50%" />
+        <img src={header}  className="w3-margin" alt="img" width="600" height="400" />
 
 
-      
+
 
         <div className="bgimg w3-display-container w3-grayscale-min" id="form">
 

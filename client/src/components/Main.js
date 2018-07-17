@@ -37,7 +37,7 @@ class Main extends Component {
                       </div>
 
 
-          <img src={cafe}  className="w3-margin-top" alt="img" />
+          <img src={cafe}  className="w3-margin-top" alt="img" width="600" height="400"/>
 
           <p><strong>Opening hours: </strong> 24 hr</p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
