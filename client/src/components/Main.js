@@ -9,11 +9,10 @@ class Main extends Component {
 
 
   const bgimg {
-      background-position: 'center';
-      background-size: 'cover';
-
-      min-height: '75%';
-  }
+      background-position: 'center',
+      background-size: 'cover',
+      min-height: '75%',
+  };
 
   render() {
     return (
