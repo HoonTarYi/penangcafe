@@ -1,25 +1,34 @@
 import React, { Component } from 'react';
 import cafe from './cafe.jpg';
 import header from './header.jpg';
+import menu from './menu.jpg';
 import './Main.css';
 
 
 class Main extends Component {
 
 
+  const bgimg {
+      background-position: 'center';
+      background-size: 'cover';
+
+      min-height: '75%';
+  }
+
   render() {
     return (
 
       <div>
 
-        <div className="bgimg  " id="home">
+
+        <div className={bgimg} id="home">
           <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span className="w3-tag">24 Hours</span>
               </div>
               <div className="w3-display-middle w3-center">
-              const w3-text-white = () => (
+
                 <span className="w3-text-white">the Cafe</span>
-                    );
+
                 </div>
                   <div className="w3-display-bottomright w3-center w3-padding-large">
                     <span className="w3-text-white">Find Your Desire Cafe</span>
@@ -97,7 +106,7 @@ class Main extends Component {
             <h5>Soda</h5>
             <p className="w3-text-grey">Coke, Sprite, Fanta, etc.</p>
           </div>
-  <img src="menu.jpg" width="100%" max-width="1000px" margin-top="32px" / >
+  <img src={menu} width="100%" max-width="1000px" margin-top="32px" / >
           </div>
             </div>
 
