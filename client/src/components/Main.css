@@ -1,13 +1,18 @@
-body, html {
+body {
     height: 100%;
     font-family: "Inconsolata", sans-serif;
 }
-.bgimg {
+.home {
     background-position: center;
     background-size: cover;
-    background-image: url('header.jpg');
+    background-image: url('cafe2.jpg');
     min-height: 75%;
 }
 .menu {
     display: none;
+}
+
+.cafe {
+  width:100%;
+  max-width:1000px
 }
