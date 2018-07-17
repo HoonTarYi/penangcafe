@@ -12,13 +12,13 @@ class Main extends Component {
 
       <div>
 
-        <div className="bgimg">
         <div className="bgimg w3-display-container w3-grayscale-min" id="home">
           <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span className="w3-tag">24 Hours</span>
               </div>
               <div className="w3-display-middle w3-center">
 
+                  <img src={header}  className="w3-margin-top" alt="img" min-height="75%" />
                 <span className="w3-text-white">the Cafe</span>
 
                 </div>
@@ -26,7 +26,7 @@ class Main extends Component {
                     <span className="w3-text-white">Find Your Desire Cafe</span>
                     </div>
                         </div>
-                        </div>
+
 
 
 
@@ -66,7 +66,7 @@ class Main extends Component {
 
           </div>
 
-          <div id="Eat" className="w3-content menu w3-padding-48 ">
+          <div id="Eat" className="w3-content w3-padding-48 ">
             <h5>Bread Basket</h5>
             <p className="w3-text-grey">Assortment of fresh baked fruit breads and muffins</p>
 
@@ -83,7 +83,7 @@ class Main extends Component {
             <p className="w3-text-grey">With syrup, butter and lots of berries</p>
           </div>
 
-          <div id="Drinks" className="w3-content menu w3-padding-48 ">
+          <div id="Drinks" className="w3-content w3-padding-48 ">
             <h5>Americano</h5>
             <p className="w3-text-grey">A shot or two of espresso with hot water added</p>
 

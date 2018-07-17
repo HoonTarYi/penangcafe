@@ -1,11 +1,8 @@
-
-.bgimg  {
+.w3-margin-top {
     background-position: center;
     background-size: cover;
-    background-image: 'url('+ header.jpg + ')';
     min-height: 75%;
 }
-
 
 .menu {
     display: none;
