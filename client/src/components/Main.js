@@ -11,8 +11,8 @@ class Main extends Component {
     return (
 
       <div>
-
-        <div className="bgimg w3-display-container w3-grayscale-min " id="home">
+        const bgimg = () => (
+        <div className="bgimg  " id="home">
           <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span className="w3-tag">24 Hours</span>
               </div>
@@ -23,7 +23,7 @@ class Main extends Component {
                     <span className="w3-text-white">Find Your Desire Cafe</span>
                     </div>
                         </div>
-
+                      );
 
 
 
@@ -51,12 +51,13 @@ class Main extends Component {
         <div className="w3-content">
 
           <h5 className="w3-center w3-padding-48"><span className="w3-tag w3-wide">Recommended MENU</span></h5>
-            <a Link to="javascript:void(0)" onClick="openMenu(event, 'Eat');" id="myLink">
-          <div className="w3-row w3-center w3-card w3-padding">
-              </a>
-              <div className="w3-col s6 tablink">Eat</div>
 
-              <a LLink to="javascript:void(0)" onClick="openMenu(event, 'Drinks');">
+          <div className="w3-row w3-center w3-card w3-padding">
+            <a Link to="javascript:void(0)" onClick="openMenu(event, 'Eat');" id="myLink">
+
+              <div className="w3-col s6 tablink">Eat</div>
+              </a>
+              <a Link to="javascript:void(0)" onClick="openMenu(event, 'Drinks');">
               <div className="w3-col s6 tablink">Drink</div>
                 </a>
           </div>

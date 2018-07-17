@@ -4,10 +4,10 @@ body {
     height: 100%;
     font-family: 'Inconsolata', sans-serif;
 }
-.bgimg w3-display-container w3-grayscale-min {
+.bgimg {
     background-position: center;
     background-size: cover;
-    background-image: 'url('+ header.jpg + ')';
+
     min-height: 75%;
 }
 
