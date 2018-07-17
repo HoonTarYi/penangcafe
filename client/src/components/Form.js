@@ -62,8 +62,8 @@ class Form extends Component {
         </div>
 
 
-        <div className="row container text-center">
-          <div className="col-sm-12">
+
+
               <div className="form-group">
             <form onSubmit={this.onSubmit}>
               <div className="form-group">
@@ -107,8 +107,7 @@ class Form extends Component {
               </div>
             </form>
           </div>
-        </div>
-      </div>
+      
         <Result list={this.state.result} />
       </div>
     );
