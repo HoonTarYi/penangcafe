@@ -14,13 +14,13 @@ class Main extends Component {
 
       <div className="w3-sand w3-grayscale w3-large">
 
-      <div className="bgimg w3-display-container w3-grayscale-min" id="home">
+      <div className="w3-display-container w3-grayscale-min" id="home">
         <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
           <span className="w3-tag">24 Hours</span>
             </div>
             <div className="w3-display-middle w3-center">
 
-                <img src={header}  className="w3-margin-top" alt="img" min-height="75%" />
+                <img src={header}  className="w3-margin" alt="img" min-height="75%" />
               <span className="w3-text-white">the Cafe</span>
 
               </div>
