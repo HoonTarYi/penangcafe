@@ -5,16 +5,16 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Places</a>
+      <nav className="navbar navbar-default navbar-fixed-top">
+        <div className="container-fluid">
+          <div className="navbar-header">
+            <a className="navbar-brand" Link to="#">Places</a>
           </div>
-          <ul class="nav navbar-nav">
+          <ul className="nav navbar-nav">
 
-            <li><a href="/">Home</a></li>
-            <li><a href="/form">Form</a></li>
-            <li><a href="/historical">Previous Searches</a></li>
+            <li><a Link to="/">Home</a></li>
+            <li><a Link to="/form">Form</a></li>
+            <li><a Link to="/historical">Previous Searches</a></li>
           </ul>
         </div>
       </nav>
