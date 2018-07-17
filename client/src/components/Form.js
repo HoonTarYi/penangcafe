@@ -47,7 +47,7 @@ class Form extends Component {
         </div>
 
 
-        <header className="bgimg w3-display-container w3-grayscale-min" id="form">
+        <div className="bgimg w3-display-container w3-grayscale-min" id="form">
 
           <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span className="w3-tag">For Searching places of Interest</span>
@@ -58,7 +58,7 @@ class Form extends Component {
           <div className="w3-display-bottomright w3-center w3-padding-large">
             <span className="w3-text-black">15 Adr street, 5015</span>
           </div>
-        </header>
+        </div>
 
 
         <div className="w3-row w3-center w3-card w3-padding text-center">
