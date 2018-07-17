@@ -46,7 +46,22 @@ class Form extends Component {
           <p>For searching for places of interest</p>
         </div>
 
-        <div className="row container text-center">
+
+        <header className="bgimg w3-display-container w3-grayscale-min" id="form">
+
+          <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+            <span className="w3-tag">For Searching places of Interest</span>
+          </div>
+          <div className="w3-display-middle w3-center">
+            <span className="w3-text-black" style="font-size:90px">Search Places</span>
+          </div>
+          <div className="w3-display-bottomright w3-center w3-padding-large">
+            <span className="w3-text-black">15 Adr street, 5015</span>
+          </div>
+        </header>
+
+
+        <div className="w3-row w3-center w3-card w3-padding text-center">
           <div className="col-sm-12">
             <form onSubmit={this.onSubmit}>
               <div className="form-group">
@@ -83,7 +98,7 @@ class Form extends Component {
                   >
 
                     <option value="cafe">cafe</option>
-                  
+
                   </select>
                 <p></p>
                 <input type="submit" value="Send" />
