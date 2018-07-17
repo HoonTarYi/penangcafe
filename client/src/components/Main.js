@@ -42,7 +42,7 @@ class Main extends Component {
                       </div>
               </div>
 
-          <img src={cafe}  className="w3-margin-top" width="100%" alt="img" />
+          <img src={cafe}  className="w3-margin-top" alt="img" />
 
           <p><strong>Opening hours: </strong> 24 hr</p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
@@ -99,7 +99,7 @@ class Main extends Component {
             <h5>Soda</h5>
             <p className="w3-text-grey">Coke, Sprite, Fanta, etc.</p>
           </div>
-                          <img src={menu} width="100%" margin-top="32px" / >
+                          <img src={menu}  margin-top="32px" / >
           </div>
 
 
