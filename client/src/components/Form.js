@@ -42,23 +42,22 @@ class Form extends Component {
   render() {
     return (
       <div>
+
+      <div className="bgimg w3-display-container w3-center w3-center w3-grayscale-min" id="form">
+
         <div className="jumbotron text-center">
           <h1>Search Page</h1>
           <p>For searching for places of interest</p>
         </div>
-        <img src={header}  className="w3-margin" alt="img" width="300" height="200" />
-
-
-
-
-        <div className="bgimg w3-display-container w3-grayscale-min" id="form">
+          <img src={header}  className="w3-margin" alt="img" width="800" height="500" />
 
           <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span className="w3-tag">For Searching places of Interest</span>
           </div>
           <div className="w3-display-middle w3-center">
-            <span className="w3-text-black ">Search Places</span>
+            <span className="w3-text-white ">Search Places</span>
           </div>
+
           <div className="w3-display-bottomright w3-center w3-padding-large">
             <span className="w3-text-black">15 Adr street, 5015</span>
           </div>

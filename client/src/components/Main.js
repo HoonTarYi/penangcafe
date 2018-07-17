@@ -12,19 +12,25 @@ class Main extends Component {
 
       <div>
 
+      <div className="bgimg w3-display-container w3-center w3-center w3-grayscale-min" id="form">
 
+        <div className="jumbotron text-center">
+          <h1>Home Page</h1>
+          <p>Sweet Home</p>
+        </div>
+          <img src={header}  className="w3-margin" alt="img" width="800" height="500" />
 
-      <div className="w3-display-bottomright w3-center w3-padding-large">
-      <span className="w3-text-white">the Cafe</span>
+          <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+            <span className="w3-tag">For Searching places of Interest</span>
+          </div>
+          <div className="w3-display-middle w3-center">
+            <span className="w3-text-white ">the Cafe</span>
+          </div>
 
-
-        <div className="w3-display-bottomright w3-center w3-padding-large">
-          <span className="w3-text-white">Find Your Desire Cafe</span>
-
-
-          <img src={header}  className="w3-margin" alt="img" width="300" height="200" />
-  </div>
-    </div>
+          <div className="w3-display-bottomright w3-center w3-padding-large">
+            <span className="w3-text-black">15 Adr street, 5015</span>
+          </div>
+        </div>
 
           <div className="w3-sand w3-grayscale w3-large" >
 
@@ -38,7 +44,7 @@ class Main extends Component {
                       </div>
 
 
-          <img src={cafe}  className="w3-margin-top" alt="img" width="300" height="200"/>
+          <img src={cafe}  className="w3-margin-top" alt="img" width="800" height="400"/>
 
           <p><strong>Opening hours: </strong> 24 hr</p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>

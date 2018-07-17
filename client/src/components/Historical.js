@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-
+import header from './header.jpg';
 class Historical extends Component {
   constructor() {
     super();
@@ -46,12 +46,31 @@ class Historical extends Component {
 
   render() {
     return (
-      <div>
-        <div className="jumbotron text-center">
-          <h1>Historical Searches</h1>
-          <p>Previous search results</p>
-        </div>
-        
+
+
+            <div>
+
+            <div className="bgimg w3-display-container w3-center w3-center w3-grayscale-min" id="form">
+
+              <div className="jumbotron text-center">
+                <h1>Delete Page</h1>
+                <p>Previous Search Results</p>
+              </div>
+                <img src={header}  className="w3-margin" alt="img" width="800" height="500" />
+
+                <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+                  <span className="w3-tag">Previous Search Results</span>
+                </div>
+                <div className="w3-display-middle w3-center">
+                  <span className="w3-text-white ">Delete Page</span>
+                </div>
+
+                <div className="w3-display-bottomright w3-center w3-padding-large">
+                  <span className="w3-text-black">15 Adr street, 5015</span>
+                </div>
+              </div>
+
+
         <div className="row container-fluid">
           <div className="col-md-4 text-center">
             <button
@@ -83,6 +102,7 @@ class Historical extends Component {
           </table>
         </div>
       </div>
+
     );
   }
 }
