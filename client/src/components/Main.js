@@ -11,7 +11,7 @@ class Main extends Component {
     return (
 
       <div>
-        <span style={bgimg} >
+        <span style={bgimg} />
         <div className="bgimg w3-display-container w3-grayscale-min " id="home">
           <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
             <span className="w3-tag">24 Hours</span>
