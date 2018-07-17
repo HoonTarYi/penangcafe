@@ -42,7 +42,7 @@ class Main extends Component {
                       </div>
               </div>
 
-          <img src={cafe}  className="w3-margin-top" width="100%" mas-width"1000px" alt="img" />
+          <img src={cafe}  className="w3-margin-top" width="100%" max-width"1000px" alt="img" />
 
           <p><strong>Opening hours: </strong> 24 hr</p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
