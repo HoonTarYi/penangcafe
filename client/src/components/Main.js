@@ -32,7 +32,7 @@ class Main extends Component {
               <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
               <p>Chef, Coffeeist and Owner: Liam Brown</p>
             </div>
-          <img src='./cafe.jpg'  className="w3-margin-top" alt="img" />
+          <img src="./cafe.jpg"  className="w3-margin-top" alt="img" />
           <p><strong>Opening hours:</strong></p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
         </div>
