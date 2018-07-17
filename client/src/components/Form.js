@@ -53,7 +53,7 @@ class Form extends Component {
             <span className="w3-tag">For Searching places of Interest</span>
           </div>
           <div className="w3-display-middle w3-center">
-            <span className="w3-text-black" style="font-size:90px">Search Places</span>
+            <span className="w3-text-black ">Search Places</span>
           </div>
           <div className="w3-display-bottomright w3-center w3-padding-large">
             <span className="w3-text-black">15 Adr street, 5015</span>
