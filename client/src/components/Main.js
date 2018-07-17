@@ -17,13 +17,14 @@ class Main extends Component {
       <div className="w3-display-bottomright w3-center w3-padding-large">
       <span className="w3-text-white">the Cafe</span>
 
-      </div>
+
         <div className="w3-display-bottomright w3-center w3-padding-large">
           <span className="w3-text-white">Find Your Desire Cafe</span>
-          </div>
 
-          <img src={header}  className="w3-margin" alt="img" min-height="50%" />
 
+          <img src={header}  className="w3-margin" alt="img" width="300" height="200" />
+  </div>
+    </div>
 
           <div className="w3-sand w3-grayscale w3-large" >
 
@@ -37,7 +38,7 @@ class Main extends Component {
                       </div>
 
 
-          <img src={cafe}  className="w3-margin-top" alt="img" width="600" height="400"/>
+          <img src={cafe}  className="w3-margin-top" alt="img" width="300" height="200"/>
 
           <p><strong>Opening hours: </strong> 24 hr</p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
@@ -94,7 +95,7 @@ class Main extends Component {
             <h5>Soda</h5>
             <p className="w3-text-grey">Coke, Sprite, Fanta, etc.</p>
           </div>
-                          <img src={menu}  margin-top="32px" / >
+                          <img src={menu}  width:"100%" margin-top="32px" / >
           </div>
 
 
