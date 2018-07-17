@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import cafe from './cafe.jpg';
 import header from './header.jpg';
-import bgimg from './Main.css';
 import './Main.css';
 
 
@@ -24,7 +23,7 @@ class Main extends Component {
                     <span className="w3-text-white">Find Your Desire Cafe</span>
                     </div>
                         </div>
-                    
+
 
 
 
@@ -52,14 +51,14 @@ class Main extends Component {
         <div className="w3-content">
 
           <h5 className="w3-center w3-padding-48"><span className="w3-tag w3-wide">Recommended MENU</span></h5>
-
+            <a Link to="javascript:void(0)" onClick="openMenu(event, 'Eat');" id="myLink">
           <div className="w3-row w3-center w3-card w3-padding">
-
+              </a>
               <div className="w3-col s6 tablink">Eat</div>
 
-
+              <a LLink to="javascript:void(0)" onClick="openMenu(event, 'Drinks');">
               <div className="w3-col s6 tablink">Drink</div>
-
+                </a>
           </div>
 
           <div id="Eat" className="w3-container menu w3-padding-48 w3-card">
