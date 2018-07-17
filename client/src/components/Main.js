@@ -20,12 +20,13 @@ class Main extends Component {
             </div>
             <div className="w3-display-middle w3-center">
 
-                <img src={header}  className="w3-margin" alt="img" min-height="75%" />
+                <img src={header}  className="w3-margin" alt="img" min-height="20%" />
               <span className="w3-text-white">the Cafe</span>
 
               </div>
                 <div className="w3-display-bottomright w3-center w3-padding-large">
                   <span className="w3-text-white">Find Your Desire Cafe</span>
+                  </div>
                   </div>
 
                       </div>
@@ -77,6 +78,10 @@ class Main extends Component {
 
             <h5>Blueberry Pancakes</h5>
             <p className="w3-text-grey">With syrup, butter and lots of berries</p>
+          </div>
+
+          <div className="w3-row w3-center w3-card w3-padding">
+              <div className="w3-col s6 tablink">Drink</div>
           </div>
 
           <div id="Drinks" className="w3-content w3-padding-48 ">
