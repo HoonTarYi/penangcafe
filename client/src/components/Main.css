@@ -8,11 +8,12 @@ body {
     background-image: url('cafe2.jpg');
     min-height: 75%;
 }
-.menu {
-    display: none;
-}
 
 .imagecafe {
   width:100%;
   max-width:1000px;
+}
+
+.menu {
+    display: none;
 }
