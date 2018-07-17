@@ -40,7 +40,7 @@ class Main extends Component {
             </div>
 
           <img src={cafe}  className="w3-margin-top" alt="img" />
-      
+
           <p><strong>Opening hours:</strong></p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
         </div>
@@ -56,10 +56,10 @@ class Main extends Component {
           <div className="w3-row w3-center w3-card w3-padding">
 
               <div className="w3-col s6 tablink">Eat</div>
-            </a>
+
 
               <div className="w3-col s6 tablink">Drink</div>
-            </a>
+          
           </div>
 
           <div id="Eat" className="w3-container menu w3-padding-48 w3-card">
