@@ -28,8 +28,8 @@ class Main extends Component {
                   <span className="w3-text-white">Find Your Desire Cafe</span>
                   </div>
                   </div>
-
                       </div>
+
           <div className="w3-content">
           <h5 className="w3-center w3-padding-64"><span className="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
           <p>This website is to let user find the nearby cafe. User just need to insert the address , enter the cafe name and you can start search the nearby cafe of the address that had enter.</p>
@@ -44,7 +44,7 @@ class Main extends Component {
           <p><strong>Opening hours: </strong> 24 hr</p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
         </div>
-          </div>
+    
 
 
 
