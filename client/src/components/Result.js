@@ -18,7 +18,7 @@ const Result = props => {
                 <td>{result.name}</td>
                 <td>{result.address}</td>
                 <td>
-                  <img src={result.photo_reference} width="100px" />
+                  <img src={result.photo_reference} width="400" height="400" />
                 </td>
               </tr>
             );
