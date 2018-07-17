@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import qs from 'qs';
+import header from './header.jpg';
 import Result from './Result';
 
 class Form extends Component {
@@ -63,7 +64,7 @@ class Form extends Component {
 
                     </div>
                     </div>
-                    
+
         <div className="bgimg w3-display-container w3-grayscale-min" id="form">
 
           <div className="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
