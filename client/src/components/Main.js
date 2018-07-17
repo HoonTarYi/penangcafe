@@ -3,11 +3,7 @@ import cafe from './cafe.jpg';
 import header from './header.jpg';
 import menu from './menu.jpg';
 import './Main.css';
-const bgimg {
-    background-position: 'center',
-    background-size: 'cover',
-    min-height: '75%',
-};
+
 
 class Main extends Component {
 
