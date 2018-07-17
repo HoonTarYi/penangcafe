@@ -13,22 +13,17 @@ class Main extends Component {
       <div>
 
 
-      <div className="w3-display-container w3-grayscale-min" id="home">
 
-            <div className="w3-display-middle w3-center">
+      <div className="w3-display-bottomright w3-center w3-padding-large">
+      <span className="w3-text-white">the Cafe</span>
 
-                <img src={header}  className="w3-margin" alt="img" min-height="50%" />
+      </div>
+        <div className="w3-display-bottomright w3-center w3-padding-large">
+          <span className="w3-text-white">Find Your Desire Cafe</span>
+          </div>
 
-              <div className="w3-display-bottomright w3-center w3-padding-large">
-              <span className="w3-text-white">the Cafe</span>
+          <img src={header}  className="w3-margin" alt="img" min-height="50%" />
 
-              </div>
-                <div className="w3-display-bottomright w3-center w3-padding-large">
-                  <span className="w3-text-white">Find Your Desire Cafe</span>
-                  </div>
-
-                  </div>
-                  </div>
 
           <div className="w3-sand w3-grayscale w3-large" >
 
@@ -40,14 +35,14 @@ class Main extends Component {
                           <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
                             <p>Chef, Coffeeist and Owner: Liam Brown</p>
                       </div>
-              </div>
+
 
           <img src={cafe}  className="w3-margin-top" alt="img" />
 
           <p><strong>Opening hours: </strong> 24 hr</p>
           <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
           </div>
-
+              </div>
 
 
 
