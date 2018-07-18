@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Result.css";
+
 
 const Result = props => {
   //console.log(props.list.length);
@@ -7,7 +7,7 @@ const Result = props => {
   return (
     <div className="table">
     <div className="row container-fluid">
-      <table className="table table-striped ">
+      <table className="tabletable-striped">
         <tbody>
           <tr>
             <th className="thstyle">Name</th>
