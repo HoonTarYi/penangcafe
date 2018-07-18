@@ -95,7 +95,7 @@ class Main extends Component {
             <h5>Mocha</h5>
             <p className="w3-text-grey">Espresso with steamed milk and chocolate (you can add whipped cream as well!)</p>
 
-            <h5>>Espresso</h5>
+            <h5>Espresso</h5>
             <p className="w3-text-grey">Coffee brewed by forcing a small amount of nearly boiling water under pressure through finely ground beans.</p>
 
             <h5>Soda</h5>

@@ -6,21 +6,18 @@
 
 {{>navbar}}
 
+
+
+
 <div class="jumbotron text-center">
-<h1>Historical Searches</h1>
-<p>Previous Search Results</p>
+  <h1>Historical Searches</h1>
+  <p>Previous Search Results</p>
 </div>
 
-<div class="row container-fluid ">
+<div class="row container-fluid">
   <form action="/" method="post">
-    <button class="btn btn-success btn-lg" type="submit" formaction="/delete">Delete all records</button>
+    <button class="btn btn-danger btn-lg btnCus" type="submit" formaction="/delete">Delete all records</button>
   </form>
-  <p></p>
-  <table class="table table-striped">
-      {{#list items}}<tr><td>{{name}}</td><td>{{address}}</td><td><img src={{photo_reference}}  width="400" height="400"></td></tr> {{/list}}
-    </table>
-</div>
-</div>
 
 </body>
 </html>

@@ -15,8 +15,8 @@ class App extends Component {
         <div>
           <Switch>
             <Route exact path="/" component={Main} />
-            <Route exact path="/form" component={Form} />
-            <Route exact path="/historical" component={Historical} />
+            <Route exact path="/Form" component={Form} />
+            <Route exact path="/Historical" component={Historical} />
           </Switch>
         </div>
       </div>
