@@ -106,8 +106,6 @@ class Main extends Component {
 
 
 
-
-
       <div className="w3-center w3-light-grey w3-padding-48 w3-large">
         <p>Powered by <a  title="W3.CSS" target="_blank" className="w3-hover-text-green">Cafe Tail</a></p>
       </div>

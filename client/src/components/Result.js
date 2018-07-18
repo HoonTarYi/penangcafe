@@ -1,23 +1,24 @@
 import React from 'react';
-
+import "./Result.css";
 
 const Result = props => {
   //console.log(props.list.length);
 
   return (
+    <div className="table">
     <div className="row container-fluid">
-      <table className="table table-striped">
+      <table className="table table-striped ">
         <tbody>
           <tr>
-            <th>Name</th>
-            <th>Address</th>
+            <th className="thstyle">Name</th>
+            <th className="thstyle">Address </th>
           </tr>
           {props.list.map(result => {
             return (
               <tr key={result.name}>
-                <td>{result.name}</td>
-                <td>{result.address}</td>
-                <td>
+                <td className="tdstyle">{result.name}</td>
+                <td className="tdstyle">{result.address}</td>
+                <td className="tdstyle">
                   <img src={result.photo_reference} width="600" height="400" />
                 </td>
               </tr>
@@ -25,6 +26,7 @@ const Result = props => {
           })}
         </tbody>
       </table>
+    </div>
     </div>
   );
 };
