@@ -1,5 +1,5 @@
 {
-  "name": "places",
+  "name": "penangcafe",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -12,7 +12,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "author": "Paul",
+  "author": "Hoon",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
