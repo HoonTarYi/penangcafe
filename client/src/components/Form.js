@@ -3,7 +3,7 @@ import axios from 'axios';
 import qs from 'qs';
 import header from './header.jpg';
 import Result from './Result';
-import "./Result.css";
+import './Result.css';
 
 class Form extends Component {
   constructor() {
