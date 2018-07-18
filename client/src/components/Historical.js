@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import header from './header.jpg';
+import './Historical.css';
+
 class Historical extends Component {
   constructor() {
     super();
@@ -81,18 +83,18 @@ class Historical extends Component {
             </button>
             <p />
           </div>
-          <table className="table table-striped">
+          <table className="tabletable-striped">
             <tbody>
               <tr>
-                <th>Name</th>
-                <th>Address</th>
+                <th  className="thstyle" >Name</th>
+                <th className="thstyle">Address</th>
               </tr>
               {this.state.result.map(result => {
                 return (
                   <tr key={result.name}>
-                    <td>{result.name}</td>
-                    <td>{result.address}</td>
-                    <td>
+                    <td className="tdstyle">{result.name}</td>
+                    <td className="tdstyle">{result.address}</td>
+                    <td className="tdstyle">
                       <img src={result.photo_reference} width="100px" />
                     </td>
                   </tr>
